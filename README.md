@@ -34,11 +34,10 @@ The main steps in the code are:
 5. Model and predict
     - Split data into train-test sets.
     - Fit the best model on training data.
-
-Note: Various models, such as XGBoost and AdaBoost, were trained separately for each country, and the CatBoost Classifier demonstrated the highest level of accuracy. The models were assessed based on accuracy and log loss.
-
     - Predict on test data and calculate accuracy.
     - Predict on final test data and generate submission file.
+
+Note: Various models, such as XGBoost and AdaBoost, were trained separately for each country, and the CatBoost Classifier demonstrated the highest level of accuracy. The models were assessed based on accuracy and log loss.
 
 6. Ensemble
     - Load prediction files for each country.
