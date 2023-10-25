@@ -11,7 +11,6 @@ The code processes satellite data from multiple sensors (Sentinel-1, Sentinel-2,
 The sources of information for remote sensing indices can be found at the following links:
 
       https://www.indexdatabase.de/db/is.php?sensor_id=168
-      
       https://www.indexdatabase.de/db/is.php?sensor_id=96
 
 The main steps in the code are:
