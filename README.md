@@ -9,7 +9,9 @@ while machine learning techniques enable us to extract valuable insights from th
 The code processes satellite data from multiple sensors (Sentinel-1, Sentinel-2, and Landsat-8), engineers features using a wide range of remote sensing indices, trains gradient boosting models, and ensembles predictions to generate a robust cropland classification model. The systematic data processing and modeling approach demonstrates an effective machine learning workflow.
 
 The sources of information for remote sensing indices can be found at the following links:
+
       https://www.indexdatabase.de/db/is.php?sensor_id=168
+      
       https://www.indexdatabase.de/db/is.php?sensor_id=96
 
 The main steps in the code are:
@@ -35,7 +37,6 @@ The main steps in the code are:
     - Fit the best model on training data.
 
 Note: Various models, such as XGBoost and AdaBoost, were trained separately for each country, and the CatBoost Classifier demonstrated the highest level of accuracy. The models were assessed based on accuracy and log loss.
-
     - Predict on test data and calculate accuracy.
     - Predict on final test data and generate submission file.
 
@@ -45,9 +46,9 @@ Note: Various models, such as XGBoost and AdaBoost, were trained separately for 
 
 The model achieved a score of 0.9288 on the public leaderboard (#6 on the private leaderboard), demonstrating its strong performance in the competition.
 
-## Hardware resources: Google colab 
+### Hardware resources: Google colab 
 
-## Code Execution Instructions:
+### Code Execution Instructions:
 
 To execute the code, please follow these instructions:
 
