@@ -1,4 +1,6 @@
 # GEO-AI Challenge for Cropland Mapping by ITU
+![crop_mapping_crop_and_non_crop_fields](https://github.com/ITU-GeoAI-Challenge/6th-Place-Cropland-Mapping/assets/148743398/1570899b-4c57-48df-af45-d25af9372207)
+
 The GEO-AI Challenge for Cropland Mapping by ITU represents a significant endeavor in the field of remote sensing and machine learning. 
 Remote sensing allows us to harness the power of satellite imagery to monitor and analyze Earth's surface, 
 while machine learning techniques enable us to extract valuable insights from this vast and complex data. 
